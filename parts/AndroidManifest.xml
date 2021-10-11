@@ -35,7 +35,7 @@
         <receiver
             android:name=".BootCompletedReceiver"
             android:exported="false">
-            <intent-filter>
+            <intent-filter android:priority="1000">
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -49,7 +49,8 @@
         <service
             android:name=".thermal.ThermalService"
             android:exported="true"
-            android:permission="ThermalService" />
+            android:permission="ThermalService">
+        </service>
 
         <activity
             android:name=".popupcamera.PopupCameraSettingsActivity"
@@ -76,8 +77,8 @@
 
         <activity
             android:name=".thermal.ThermalActivity"
-            android:exported="false"
-            android:label="@string/thermal_title">
+            android:label="@string/thermal_title"
+            android:exported="true">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
@@ -95,7 +96,7 @@
         <activity
             android:name=".refreshrate.RefreshActivity"
             android:label="@string/refresh_title"
-            android:exported="false"
+            android:exported="true"
             android:theme="@style/Theme.SubSettingsBase">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
