@@ -35,7 +35,7 @@
         <receiver
             android:name=".BootCompletedReceiver"
             android:exported="false">
-            <intent-filter android:priority="1000">
+            <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -78,7 +78,7 @@
         <activity
             android:name=".thermal.ThermalActivity"
             android:label="@string/thermal_title"
-            android:exported="true"
+            android:exported="false"
             android:theme="@style/Theme.SubSettingsBase_v31">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
