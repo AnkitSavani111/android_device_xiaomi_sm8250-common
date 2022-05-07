@@ -328,9 +328,14 @@
 
     <!-- Whether the device enable the non-standalone (NSA) mode of 5G NR.-->
     <bool name="config_telephony5gNonStandalone">true</bool>
-    
+
     <!-- Safe headphone volume index. When music stream volume is below this index
     the SPL on headphone output is compliant to EN 60950 requirements for portable music
     players. -->
     <integer name="config_safe_media_volume_index">17</integer>
+
+
+     <!-- If true, the screen can be rotated via the accelerometer in all 4
+         rotations as the default behavior. -->
+     <bool name="config_allowAllRotations">true</bool>
 </resources>
