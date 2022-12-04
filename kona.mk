@@ -370,6 +370,10 @@ ifneq ($(TARGET_IS_TABLET),true)
 $(call inherit-product, vendor/qcom/opensource/vibrator/vibrator-vendor-product.mk)
 endif
 
+# Viper4Android
+PRODUCT_PACKAGES += \
+    libstdc++_vendor \
+
 # Wi-Fi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
