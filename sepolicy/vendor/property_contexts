@@ -17,6 +17,7 @@ ro.vendor.camera.                                                               
 vendor.camera.boot_complete                                                                         u:object_r:vendor_camera_prop:s0
 vendor.camera.sensor.                                                                               u:object_r:vendor_camera_prop:s0
 vendor.panel.display                                                                                u:object_r:vendor_camera_prop:s0
+vendor.camera.skip_unconfigure.packagelist                                                          u:object_r:vendor_camera_prop:s0
 
 # Display
 ro.vendor.display.type	                                                                            u:object_r:vendor_display_prop:s0
