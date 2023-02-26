@@ -3,3 +3,7 @@ allow hal_power_default sysfs_touchpanel:file rw_file_perms;
 
 # To do powerhint on nodes defined in powerhint.json
 allow hal_power_default vendor_latency_device:chr_file rw_file_perms;
+
+type vendor_touchfeature_device, dev_type;
+
+allow hal_power_default vendor_touchfeature_device:chr_file rw_file_perms;
