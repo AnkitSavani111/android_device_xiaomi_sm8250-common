@@ -1,3 +1,6 @@
+# Aware
+vendor_restricted_prop(vendor_aware_available_prop);
+
 vendor_internal_prop(vendor_thermal_normal_prop);
 
 vendor_internal_prop(vendor_device_prop);
@@ -7,3 +10,4 @@ vendor_internal_prop(vendor_deviceid_prop);
 vendor_restricted_prop(vendor_fingerprint_prop);
 
 vendor_internal_prop(vendor_motor_prop);
+

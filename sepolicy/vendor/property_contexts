@@ -3,6 +3,9 @@ audio.offload.                                                                  
 audio.soundtrigger.debug.urser_id                                                                   u:object_r:vendor_audio_prop:s0
 audio_hal.in_period_size                                                                            u:object_r:vendor_audio_prop:s0
 
+# Aware
+ro.vendor.aware_available          u:object_r:vendor_aware_available_prop:s0
+
 # Bluetooth
 persist.vendor.bt.                                                                                  u:object_r:vendor_bluetooth_prop:s0
 persist.vendor.btstack.                                                                             u:object_r:vendor_bluetooth_prop:s0
