@@ -30,6 +30,14 @@ ro.lmk.use_minfree_levels=true
 ro.lmk.kill_heaviest_task=true
 ro.lmk.kill_timeout_ms=15
 
+# Log
+persist.log.tag.ACDB-LOADER=S
+persist.log.tag.CamX=S
+persist.log.tag.CHIUSECASE=S
+persist.log.tag.CVP=S
+persist.log.tag.ResourcesCompat=S
+persist.log.tag.SYNX-UMD=S
+
 # Netflix
 ro.netflix.bsp_rev=Q8250-19134-1
 
