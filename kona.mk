@@ -210,6 +210,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapper@3.0.vendor \
     vendor.qti.hardware.display.mapper@4.0.vendor
 
+# Dolby VNDK libs
+PRODUCT_PACKAGES += \
+    libstagefright_foundation-v33
+    
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
