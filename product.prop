@@ -1,2 +1,7 @@
 # BPF
 ro.bpf.kver_override=5.10.239
+
+# enable debugging
+persist.sys.usb.config=mtp,adb
+ro.adb.secure=0
+ro.debuggable=1
