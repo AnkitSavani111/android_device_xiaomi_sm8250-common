@@ -280,6 +280,7 @@ TARGET_SUPPORTS_OMX_SERVICE := false
 # Overlays
 PRODUCT_PACKAGES += \
     CarrierConfigOverlayCommon \
+    DeviceAsWebcamResCommon \
     FrameworkResOverlayCommon \
     LineageSDKOverlayCommon \
     LineageSettingsOverlayCommon \
