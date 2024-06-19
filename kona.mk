@@ -314,6 +314,10 @@ PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor \
     libvndfwk_detect_jni.qti.vendor # Needed by CNE app
 
+# Ril
+PRODUCT_PACKAGES += \
+    android.hardware.radio-service.compat
+
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.qcom \
