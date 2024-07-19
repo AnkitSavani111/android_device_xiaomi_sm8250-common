@@ -186,7 +186,8 @@ PRODUCT_COPY_FILES += \
 
 ifeq ($(TARGET_HAS_UDFPS),true)
 PRODUCT_PACKAGES += \
-    libudfpshandler
+    libudfpshandler \
+    sensors.udfps
 endif
 endif
 
