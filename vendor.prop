@@ -211,6 +211,9 @@ persist.vendor.hvdcp_opti.disallowed=1
 # Keystore
 ro.hardware.keystore_desede=true
 
+# Media
+vendor.media.omx=0
+
 # NFC
 ro.camera.notify_nfc=1
 
