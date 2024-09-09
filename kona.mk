@@ -241,6 +241,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
+# Media C2 Vendor
+PRODUCT_PACKAGES += \
+    libcodec2_hidl@1.0.vendor \
+    libcodec2_soft_common.vendor
+
 # Media configs
 PRODUCT_PACKAGES += \
     media_codecs_kona.xml \

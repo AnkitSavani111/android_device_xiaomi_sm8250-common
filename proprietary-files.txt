@@ -173,6 +173,38 @@ vendor/lib64/vendor.display.color@1.4.so
 vendor/lib64/vendor.display.color@1.5.so
 vendor/lib64/vendor.display.postproc@1.0.so
 
+# Dolby Miui
+system/lib/vendor.dolby.hardware.dms@2.0.so
+system/lib64/vendor.dolby.hardware.dms@2.0.so
+vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
+vendor/etc/dolby/dax-default.xml
+vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc
+vendor/etc/vintf/manifest/manifest_vendor.dolby.hardware.dms.xml
+vendor/lib/libdapparamstorage.so
+vendor/lib/libdeccfg.so
+vendor/lib/vendor.dolby.hardware.dms@2.0.so;MODULE_SUFFIX=_vendor
+vendor/lib64/libdapparamstorage.so
+vendor/lib64/libdeccfg.so
+vendor/lib64/libdlbdsservice.so
+vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
+vendor/lib64/vendor.dolby.hardware.dms@2.0.so;MODULE_SUFFIX=_vendor
+
+# Dolby SoundFX
+vendor/lib/soundfx/libhwdap.so
+vendor/lib/soundfx/libswgamedap.so
+vendor/lib/soundfx/libswvqe.so
+vendor/lib64/soundfx/libhwdap.so
+vendor/lib64/soundfx/libswgamedap.so
+vendor/lib64/soundfx/libswvqe.so
+
+# Dolby MediaCodecs
+vendor/lib/libstagefright_soft_ac4dec.so
+vendor/lib/libstagefright_soft_ddpdec.so
+vendor/lib/libstagefrightdolby.so
+vendor/lib64/libstagefright_soft_ac4dec.so
+vendor/lib64/libstagefright_soft_ddpdec.so
+vendor/lib64/libstagefrightdolby.so
+
 # DPM
 system/framework/tcmclient.jar
 system_ext/bin/dpmd
@@ -257,11 +289,11 @@ vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 
 # Graphics (Adreno)
-vendor/lib/egl/eglSubDriverAndroid.so
 vendor/lib/egl/libEGL_adreno.so;SYMLINK=vendor/lib/libEGL_adreno.so
-vendor/lib/egl/libGLESv1_CM_adreno.so
 vendor/lib/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib/libGLESv2_adreno.so
 vendor/lib/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib/libq3dtools_adreno.so
+vendor/lib/egl/eglSubDriverAndroid.so
+vendor/lib/egl/libGLESv1_CM_adreno.so
 vendor/lib/egl/libq3dtools_esx.so
 vendor/lib/libC2D2.so
 vendor/lib/libCB.so
@@ -273,11 +305,11 @@ vendor/lib/libgpudataproducer.so
 vendor/lib/libgsl.so
 vendor/lib/libllvm-glnext.so
 vendor/lib/libllvm-qcom.so
-vendor/lib64/egl/eglSubDriverAndroid.so
 vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so
-vendor/lib64/egl/libGLESv1_CM_adreno.so
 vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so
 vendor/lib64/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib64/libq3dtools_adreno.so
+vendor/lib64/egl/eglSubDriverAndroid.so
+vendor/lib64/egl/libGLESv1_CM_adreno.so
 vendor/lib64/egl/libq3dtools_esx.so
 vendor/lib64/libC2D2.so
 vendor/lib64/libCB.so
