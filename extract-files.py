@@ -13,7 +13,6 @@ from extract_utils.fixups_blob import (
     blob_fixups_user_type,
 )
 from extract_utils.fixups_lib import (
-    lib_fixup_remove,
     lib_fixups,
     lib_fixups_user_type,
 )
@@ -62,9 +61,6 @@ lib_fixups: lib_fixups_user_type = {
         'vendor.qti.hardware.wifidisplaysession@1.0',
         'vendor.qti.imsrtpservice@3.0',
     ): lib_fixup_vendor_suffix,
-    (
-        'libgrallocutils',
-    ): lib_fixup_remove,
 }
 
 namespace_imports = [
