@@ -2,3 +2,6 @@ allow system_app vendor_sysfs_graphics:file { getattr open read };
 
 # Aware
 get_prop(system_app, vendor_aware_available_prop)
+
+allow system_app zygote:unix_stream_socket getopt;
+allow system_app user_profile_data_file:dir read;
