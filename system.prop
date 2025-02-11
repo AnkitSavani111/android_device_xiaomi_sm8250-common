@@ -49,3 +49,10 @@ vendor.wfdservice64=enable
 
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# About Phone
+ro.product.marketname=POCO F4 5G
+ro.infinity.soc=Snapdragon 870 5G
+ro.infinity.battery=4500 mAh
+ro.infinity.display=1080 x 2400, 120 Hz
+ro.infinity.camera=64/48MP + 8MP + 2MP
