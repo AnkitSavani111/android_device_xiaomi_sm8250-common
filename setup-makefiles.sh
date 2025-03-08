@@ -49,8 +49,7 @@ function lib_to_package_fixup_vendor_variants() {
             echo "${1}_vendor"
             ;;
         libOmxCore | \
-            libgrallocutils | \
-            libwpa_client) ;;
+            libgrallocutils) ;;
         *)
             return 1
             ;;
