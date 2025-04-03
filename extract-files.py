@@ -64,7 +64,6 @@ lib_fixups: lib_fixups_user_type = {
     ): lib_fixup_vendor_suffix,
     (
         'libgrallocutils',
-        'libOmxCore',
     ): lib_fixup_remove,
 }
 
