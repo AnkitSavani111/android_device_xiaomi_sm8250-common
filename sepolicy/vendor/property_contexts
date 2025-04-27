@@ -1,7 +1,7 @@
 # Audio
-audio.offload.                                                                                      u:object_r:vendor_audio_prop:s0
-audio.soundtrigger.debug.urser_id                                                                   u:object_r:vendor_audio_prop:s0
-audio_hal.in_period_size                                                                            u:object_r:vendor_audio_prop:s0
+vendor.audio.offload.                                                                               u:object_r:vendor_audio_prop:s0
+vendor.audio.soundtrigger.debug.urser_id                                                            u:object_r:vendor_audio_prop:s0
+vendor.audio_hal.in_period_size                                                                     u:object_r:vendor_audio_prop:s0
 
 # Aware
 ro.vendor.aware_available          u:object_r:vendor_aware_available_prop:s0
@@ -12,12 +12,12 @@ persist.vendor.btstack.                                                         
 
 # Camera
 audio.camerasound.                                                                                  u:object_r:vendor_default_prop:s0
-camera.                                                                                             u:object_r:vendor_camera_prop:s0
+vendor.camera.                                                                                      u:object_r:vendor_camera_prop:s0
 persist.camera.                                                                                     u:object_r:vendor_camera_prop:s0
 persist.vendor.EnableP3ColorSpace                                                                   u:object_r:vendor_camera_prop:s0
 persist.vendor.camera                                                                               u:object_r:vendor_camera_prop:s0
-ro.camera.res.fmq.size                                                                              u:object_r:vendor_camera_prop:s0
-ro.camera.req.fmq.size                                                                              u:object_r:vendor_camera_prop:s0
+ro.vendor.camera.res.fmq.size                                                                       u:object_r:vendor_camera_prop:s0
+ro.vendor.camera.req.fmq.size                                                                       u:object_r:vendor_camera_prop:s0
 ro.vendor.camera.                                                                                   u:object_r:vendor_camera_prop:s0
 vendor.camera.boot_complete                                                                         u:object_r:vendor_camera_prop:s0
 vendor.camera.sensor.                                                                               u:object_r:vendor_camera_prop:s0
@@ -28,15 +28,14 @@ ro.vendor.display.type	                                                         
 ro.vendor.display.dynamic_refresh_rate                                                              u:object_r:vendor_display_prop:s0
 
 # Fingerprint
-gf.debug.                                                                                           u:object_r:vendor_fingerprint_prop:s0
-persist.sys.fp.                                                                                     u:object_r:vendor_fingerprint_prop:s0
+vendor.gf.debug.                                                                                    u:object_r:vendor_fingerprint_prop:s0
 persist.vendor.fingerprint.                                                                         u:object_r:vendor_fingerprint_prop:s0
 persist.vendor.fpc.                                                                                 u:object_r:vendor_fingerprint_prop:s0
 persist.vendor.sys.fp.                                                                              u:object_r:vendor_fingerprint_prop:s0
 ro.boot.fpsensor                                                                                    u:object_r:vendor_fingerprint_prop:s0
 ro.hardware.fp                                                                                      u:object_r:vendor_fingerprint_prop:s0
-sys.panel.display                                                                                   u:object_r:vendor_fingerprint_prop:s0
-sys.panel.touch_vendor                                                                              u:object_r:vendor_fingerprint_prop:s0
+vendor.sys.panel.display                                                                            u:object_r:vendor_fingerprint_prop:s0
+vendor.sys.panel.touch_vendor                                                                       u:object_r:vendor_fingerprint_prop:s0
 vendor.fps_hal.                                                                                     u:object_r:vendor_fingerprint_prop:s0
 
 # Global
@@ -47,11 +46,11 @@ ro.boot.hwversion                                                               
 ro.vendor.gfx.32bit.target                      u:object_r:vendor_default_prop:s0
 
 # IMEI
-persist.radio.imei                                                                                  u:object_r:vendor_deviceid_prop:s0
-persist.radio.meid                                                                                  u:object_r:vendor_deviceid_prop:s0
-ro.ril.miui.imei                                                                                    u:object_r:vendor_deviceid_prop:s0
-ro.ril.oem.imei                                                                                     u:object_r:vendor_deviceid_prop:s0
-ro.ril.oem.meid                                                                                     u:object_r:vendor_deviceid_prop:s0
+persist.vendor.radio.imei                                                                           u:object_r:vendor_deviceid_prop:s0
+persist.vendor.radio.meid                                                                           u:object_r:vendor_deviceid_prop:s0
+ro.vendor.ril.miui.imei                                                                             u:object_r:vendor_deviceid_prop:s0
+ro.vendor.ril.oem.imei                                                                              u:object_r:vendor_deviceid_prop:s0
+ro.vendor.ril.oem.meid                                                                              u:object_r:vendor_deviceid_prop:s0
 ro.vendor.oem.imei                                                                                  u:object_r:vendor_deviceid_prop:s0
 ro.vendor.oem.psno                                                                                  u:object_r:vendor_deviceid_prop:s0
 ro.vendor.oem.sno                                                                                   u:object_r:vendor_deviceid_prop:s0
@@ -66,10 +65,9 @@ persist.vendor.motor.                                                           
 ro.vendor.ril                                                                                       u:object_r:vendor_public_vendor_default_prop:s0
 
 # Sensor
-invn.hal.                                                                                           u:object_r:vendor_sensors_prop:s0
-persist.sensor.                                                                                     u:object_r:vendor_sensors_prop:s0
+vendor.invn.hal.                                                                                    u:object_r:vendor_sensors_prop:s0
+persist.vendor.sensor.                                                                              u:object_r:vendor_sensors_prop:s0
 
 # Thermal
-persist.sys.thermal.config                                                                          u:object_r:vendor_thermal_normal_prop:s0
-sys.thermal.                                                                                        u:object_r:vendor_thermal_normal_prop:s0
+persist.vendor.sys.thermal.config                                                                   u:object_r:vendor_thermal_normal_prop:s0
 vendor.sys.thermal.                                                                                 u:object_r:vendor_thermal_normal_prop:s0
