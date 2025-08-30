@@ -101,9 +101,6 @@ TARGET_KERNEL_CONFIG := \
     vendor/debugfs.config \
     vendor/xiaomi/sm8250-common.config
 
-# Media
-TARGET_USES_ION := true
-
 # Lineage Health
 TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/power_supply/battery/input_suspend
 TARGET_HEALTH_CHARGING_CONTROL_CHARGING_ENABLED := 0
