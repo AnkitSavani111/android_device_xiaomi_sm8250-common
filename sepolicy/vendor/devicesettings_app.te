@@ -1,2 +1,5 @@
 allow devicesettings_app vendor_sysfs_graphics:file write;
 r_dir_file(devicesettings_app, vendor_sysfs_graphics)
+
+# Allow HBM to RW sysfs_livedisplay_tuneable
+allow devicesettings_app sysfs_livedisplay_tuneable:file rw_file_perms;
